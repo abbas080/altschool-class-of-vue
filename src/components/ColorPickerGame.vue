@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ColorPicker from "./composables/colorPicker.vue";
+import ColorPicker from "./composables/colorPicker";
 <ColorPicker/>
 </script>
 

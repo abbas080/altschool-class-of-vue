@@ -1,8 +1,7 @@
+
 <script>
 import { ref, reactive } from "@vue/reactivity";
 ColorPicker = () => { 
-  // setup() {
-    
      const colors = ["green", "red", "blue", "purple"];
      let message = ref("Pick a color...");
  
@@ -19,7 +18,6 @@ ColorPicker = () => {
      };
  
      return { colors, message, matchColor };
-  //  },
  }
 
  export default ColorPicker;
